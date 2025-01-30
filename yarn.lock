@@ -1930,12 +1930,12 @@ react-dom@18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-dom@^20.0.0:
-  version "19.1.0-canary-fc8a898d-20241226"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-19.1.0-canary-fc8a898d-20241226.tgz#d23a786b8871875c565809731ff9684ac722b7d3"
-  integrity sha512-4u/xxMRDJt1RqwwdqRQjLjMogmHHpM8byUzvJk/ZRGIKA7lq8KmJRHV7PXSvEN865jxHyS+lj5naIf5Gi3qTaA==
+react-dom@^19.0.0:
+  version "19.0.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-19.0.0.tgz#43446f1f01c65a4cd7f7588083e686a6726cfb57"
+  integrity sha512-4GV5sHFG0e/0AD4X+ySy6UJd3jVl1iNsNHdpad0qhABJ11twS3TTBnseqsKurKcsNqCEFeGL3uLpVChpIO3QfQ==
   dependencies:
-    scheduler "0.26.0-canary-fc8a898d-20241226"
+    scheduler "^0.25.0"
 
 react-intersection-observer@^9.13.0:
   version "9.15.1"
@@ -2045,17 +2045,17 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-scheduler@0.26.0-canary-fc8a898d-20241226:
-  version "0.26.0-canary-fc8a898d-20241226"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.26.0-canary-fc8a898d-20241226.tgz#5bb25936abfb9db78b6e207b505e32428e5aeaad"
-  integrity sha512-1/b79Uz8uEZDEwuD4CVR9CE474uQi7Q2CK0uGB91Y+1gTxgbMaxprhxnxjkO7EmFzIHP0Iej/b/pg3N1yl0nAQ==
-
 scheduler@^0.23.0:
   version "0.23.2"
   resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.23.2.tgz#414ba64a3b282892e944cf2108ecc078d115cdc3"
   integrity sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==
   dependencies:
     loose-envify "^1.1.0"
+
+scheduler@^0.25.0:
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.25.0.tgz#336cd9768e8cceebf52d3c80e3dcf5de23e7e015"
+  integrity sha512-xFVuu11jh+xcO7JOAGJNOXld8/TcEHK/4CituBUeUb5hqxJLj9YuemAEuvm9gQ/+pgXYfbQuqAkiYu+u7YEsNA==
 
 scroll-into-view-if-needed@^3.1.0:
   version "3.1.0"
