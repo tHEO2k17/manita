@@ -6,77 +6,29 @@ import {
   Tab,
   TabPanel,
 } from "@material-tailwind/react";
+import CustomTab from "../customTab/customTabs";
 
 const JoinUs = () => {
-  const firstTabForm = (
-    <div>
-      <div className="inline">
-        <p>
-          <label className="text-black">Full Name</label>
-        </p>
-        <input type="text" className="p-3 border w-full" />
-      </div>
-      <div className="inline">
-        <p>
-          <label className="text-black">Email</label>
-        </p>
-        <input type="text" className="p-3 border w-full" />
-      </div>
-      <div className="flex gap-4 ">
-        <div className="w-1/2">
-          <p>
-            <label className="text-black">City</label>
-          </p>
-          <input type="text" className="p-3 border w-full" />
-        </div>
-        <div className="w-1/2">
-          <p>
-            <label className="text-black">State</label>
-          </p>
-          <input type="text" className="p-3 border w-full" />
-        </div>
-      </div>
-      <div className="inline">
-        <p>
-          <label className="text-black">Phone Number</label>
-        </p>
-        <input type="text" className="p-3 border w-full" />
-      </div>
-      <div className="flex gap-4 ">
-        <div className="w-1/2">
-          <p>
-            <label className="text-black">Instagram</label>
-          </p>
-          <input type="text" className="p-3 border w-full" />
-        </div>
-        <div className="w-1/2">
-          <p>
-            <label className="text-black">TikTok</label>
-          </p>
-          <input type="text" className="p-3 border w-full" />
-        </div>
-      </div>
-      <button className="w-full p-3 text-sm text-white bg-[#F76828] my-4">Submit</button>
-    </div>
-  );
+ 
   return (
-    <section className="h-screen w-full bg-join-us py-8">
-      <div className=" flex gap-8 rounded-xl items-center bg-white md:max-w-[80vw] mx-auto  ">
+    <section className="h-screen w-full bg-join-us py-12">
+      <div className=" flex gap-8 rounded-4xl items-center bg-white md:w-[1200px] mx-auto  ">
         <div className="rounded-tl-xl rounded-bl-xl">
           <img
             src={JoinUsImg}
             alt="join-us-img"
-            className="max-h-[924px] w-[650px]  object-cover object-top rounded-tl-xl rounded-bl-xl"
+            className="h-[800px] w-[480px]  object-fill object-center rounded-tl-4xl rounded-bl-4xl"
           />
         </div>
         <div className="p-6 text-start">
           <p className="headerWithFont text-[52px] ">Join Us!</p>{" "}
-          <p className="lg:max-w-xl leading-8 font-light my-4">
+          <p className="lg:max-w-xl leading-8 font-light">
             Are you a talented creative looking for representation, or a brand
             seeking innovative partnerships, we invite you to explore our site
             and connect with us.
           </p>
-          <form>
+          <CustomTab/>
+          {/* <form>
             <Tabs value="html">
               <TabsHeader
                 placeholder="" // Add a placeholder if needed
@@ -110,7 +62,7 @@ const JoinUs = () => {
                 onPointerEnterCapture={() => {}} // Provide a no-op function
                 onPointerLeaveCapture={() => {}}
               >
-                <TabPanel key={"creator"} value={"creator"} className="max-w-4xl">
+                <TabPanel key={"creator"} value={"creator"} className="w-full">
                   {firstTabForm}
                 </TabPanel>
                 <TabPanel key={"brand"} value={"brand"}>
@@ -118,7 +70,7 @@ const JoinUs = () => {
                 </TabPanel>
               </TabsBody>
             </Tabs>
-          </form>
+          </form> */}
         </div>
       </div>
     </section>
