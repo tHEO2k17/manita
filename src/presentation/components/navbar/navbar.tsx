@@ -1,4 +1,4 @@
-import React, { ReactNode, useEffect, useState } from "react";
+import { ReactNode, useEffect, useState } from "react";
 import {
   Navbar,
   MobileNav,
@@ -13,8 +13,9 @@ interface StickyNavbarProps {
   children: ReactNode; // This allows for any valid React children type
 }
 
-export function StickyNavbar({ children }: StickyNavbarProps): JSX.Element {
-  const [openNav, setOpenNav] = React.useState(false);
+export function StickyNavbar({ children }: StickyNavbarProps){
+  const [openNav, setOpenNav] = useState(false);
+  
   const [activeNav, setActiveNav] = useState<string>(""); // Track active nav item
   const location = useLocation();
 
