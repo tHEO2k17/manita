@@ -10,8 +10,8 @@ function AppRouter() {
         {/* Main Routes */}
         <Route path="/">
           <Route index element={<Navigate replace to="home" />} />
-          <Route path="home" element={<Home />} />
-          <Route path="about" element={<About />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
         </Route>
       </Routes>
       <Footer />
