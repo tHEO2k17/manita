@@ -21,7 +21,7 @@ const CustomTab = () => {
     <Fade
       direction="up"
       delay={100} // Wait 200ms before starting
-      duration={1000} // Animation lasts 1 second
+      duration={500} // Animation lasts 1 second
     >
       <form>
         <div className="py-2">
@@ -38,7 +38,7 @@ const CustomTab = () => {
               Email
             </label>
           </p>
-          <input type="text" className="p-2 border border-gray-300 w-full" />
+          <input type="text" className="p-2  w-full"  style={{border:'1px solid gray'}}/>
         </div>
         <div className="flex gap-4 ">
           <div className="w-1/2  py-2">
@@ -47,7 +47,7 @@ const CustomTab = () => {
                 City
               </label>
             </p>
-            <input type="text" className="p-2 border border-gray-300 w-full" />
+            <input type="text" className="p-2 w-full" style={{border:'1px solid gray'}}/>
           </div>
           <div className="w-1/2  py-2">
             <p>
@@ -55,7 +55,7 @@ const CustomTab = () => {
                 State
               </label>
             </p>
-            <input type="text" className="p-2 border  border-gray-300 w-full" />
+            <input type="text" className="p-2  w-full" style={{border:'1px solid gray'}}/>
           </div>
         </div>
         <div className=" py-2">
@@ -64,7 +64,7 @@ const CustomTab = () => {
               Phone Number
             </label>
           </p>
-          <input type="text" className="p-2 border border-gray-300  w-full" />
+          <input type="text" className="p-2 w-full" style={{border:'1px solid gray'}}/>
         </div>
         <div className="flex gap-4 ">
           <div className="w-1/2">
@@ -73,7 +73,7 @@ const CustomTab = () => {
                 Instagram
               </label>
             </p>
-            <input type="text" className="p-2 border border-gray-300  w-full" />
+            <input type="text" className="p-2   w-full" style={{border:'1px solid gray'}}/>
           </div>
           <div className="w-1/2">
             <p>
@@ -81,7 +81,7 @@ const CustomTab = () => {
                 TikTok
               </label>
             </p>
-            <input type="text" className="p-2 border border-gray-300 w-full" />
+            <input type="text" className="p-2 w-full" style={{border:'1px solid gray'}}/>
           </div>
         </div>
         <button className="w-full p-3 md:text-sm text-xs text-white bg-[#F76828] my-4">
@@ -104,7 +104,7 @@ const CustomTab = () => {
               Brand Name
             </label>
           </p>
-          <input type="text" className="p-2 border border-gray-300 w-full" />
+          <input type="text" className="p-2 w-full" style={{border:'1px solid gray'}}/>
         </div>
         <div className=" py-2">
           <p>
@@ -112,7 +112,7 @@ const CustomTab = () => {
               Category
             </label>
           </p>
-          <input type="text" className="p-2 border border-gray-300 w-full" />
+          <input type="text" className="p-2 w-full" style={{border:'1px solid gray'}} />
         </div>
         <div className="flex gap-4 ">
           <div className="w-1/2  py-2">
@@ -129,7 +129,7 @@ const CustomTab = () => {
                 State
               </label>
             </p>
-            <input type="text" className="p-2 border  border-gray-300 w-full" />
+            <input type="text" className="p-2 w-full" style={{border:'1px solid gray'}}/>
           </div>
         </div>
         <div className="flex gap-4 py-2">
@@ -139,7 +139,7 @@ const CustomTab = () => {
                 Email
               </label>
             </p>
-            <input type="text" className="p-2 border border-gray-300  w-full" />
+            <input type="text" className="p-2 w-full" style={{border:'1px solid gray'}}/>
           </div>
           <div className="w-1/2  py-2">
             <p>
@@ -147,7 +147,7 @@ const CustomTab = () => {
                 Phone Number
               </label>
             </p>
-            <input type="text" className="p-2 border border-gray-300  w-full" />
+            <input type="text" className="p-2 w-full" style={{border:'1px solid gray'}}/>
           </div>
         </div>
         <div className="flex gap-4 ">
@@ -157,7 +157,7 @@ const CustomTab = () => {
                 Instagram
               </label>
             </p>
-            <input type="text" className="p-2 border border-gray-300  w-full" />
+            <input type="text" className="p-2 w-full" style={{border:'1px solid gray'}}/>
           </div>
           <div className="w-1/2">
             <p>
@@ -165,7 +165,7 @@ const CustomTab = () => {
                 TikTok
               </label>
             </p>
-            <input type="text" className="p-2 border border-gray-300 w-full" />
+            <input type="text" className="p-2 w-full" style={{border:'1px solid gray'}} />
           </div>
         </div>
         <button className="w-full p-3 md:text-sm text-xs text-white bg-[#F76828] my-4">
