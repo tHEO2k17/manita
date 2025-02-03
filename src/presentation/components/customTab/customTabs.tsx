@@ -30,7 +30,7 @@ const CustomTab = () => {
               Full Name
             </label>
           </p>
-          <input type="text" className="p-2 border border-gray-300 w-full" />
+          <input type="text" className="p-2 w-full" style={{border:'1px solid gray'}}/>
         </div>
         <div className=" py-2">
           <p>
@@ -112,7 +112,7 @@ const CustomTab = () => {
               Category
             </label>
           </p>
-          <input type="text" className="p-2 w-full" style={{border:'1px solid gray'}} />
+          <input type="text" className="p-2 w-full" style={{border:'1px solid red'}} />
         </div>
         <div className="flex gap-4 ">
           <div className="w-1/2  py-2">
